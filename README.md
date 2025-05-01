@@ -4,9 +4,7 @@ This project is a beautiful animated rainy background created using pure HTML, C
 
 ---
 
-## 📸 Preview
 
-![Rain Animation Preview](preview-image.png) <!-- Optional: Upload screenshot -->
 
 ---
 
