@@ -1,0 +1,78 @@
+
+
+ body {
+  margin: 0;
+  padding: 0;
+  height: 50vh;
+  width: 50vw;
+  background-color:  #82a8e0;;
+  background-image: url('sky.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+
+.mountains {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('mountains.png') no-repeat center center;
+  background-size: cover;
+  z-index: 0;
+  opacity: 0.8;
+}
+.rain {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.drop {
+  position: absolute;
+  width: 2px;
+  height: 15px;
+  background: rgb(66, 139, 208);
+  animation: fall 0.7s linear infinite;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+.characters {
+  display: flex;
+  gap: 20px;
+  z-index: 3;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.person {
+  width: 100px;
+  animation: sway 2s infinite alternate;
+}
+
+@keyframes sway {
+  from { transform: rotate(-2deg); }
+  to { transform: rotate(2deg); }
+} 
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
