@@ -4,7 +4,7 @@ This project is a beautiful animated rainy background created using pure HTML, C
 
 ---
 
-
+![Rainy Scene Preview](Screenshot%202025-07-22%20214811.png)
 
 ---
 
