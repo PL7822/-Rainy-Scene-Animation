@@ -25,6 +25,12 @@ This project is a beautiful animated rainy background created using pure HTML, C
 - JavaScript (Canvas API)
 
 ---
+## 🤝 Connect with Me
+
+- [LinkedIn](https://www.linkedin.com/in/pritam-lendale-398172353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- [GitHub](https://github.com/PL7822?tab=repositories)
+
+---
 
 ## 🚀 How to Run
 
